@@ -146,6 +146,10 @@
 	width: max-content;
 }
 
+.visual-card img {
+	border: #f0f0f0 solid 1px;
+}
+
 .web-temp-card {
 	background-color: white;
 	color: #3e3e43;
