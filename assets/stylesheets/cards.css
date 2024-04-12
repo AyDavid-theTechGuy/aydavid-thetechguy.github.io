@@ -14,7 +14,7 @@
 	border-radius: 25px;
 	padding: 0 30px 30px 30px;
 	border: 1px solid #ffffff40;
-	z-index: 10;
+	z-index: 99;
 }
 
 .close-profile {
@@ -58,7 +58,7 @@
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.6);
 	backdrop-filter: blur(5px);
-	z-index: 5;
+	z-index: 19;
 }
 
 /* Project Cards, Service Cards */
@@ -104,14 +104,13 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 10px 11px 10px 0;
+	padding: 20px 11px;
+	width: 84%;
 }
 
 .service-card:hover {
-	background-color: #3e3e43;
-	color: white;
 	box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
-	transition-duration: 0.5s;
+	transition-duration: 0.3s;
 }
 
 .service-card p {
@@ -144,6 +143,7 @@
 
 .visual-card {
 	width: max-content;
+	padding-bottom: 16px;
 }
 
 .visual-card img {
@@ -173,29 +173,3 @@
 .web-temp-card p {
 	font-family: "Mulish", sans-serif;
 }
-
-/* Media Queries */
-/*
-@media screen and (max-width: 576px) {
-	.projectCard {
-		display: block;
-		width: 84%;
-		margin: 0 0 34px 0;
-	}
-}
-
-@media screen and (min-width: 577px) and (max-width: 767px) {
-	.project-card {
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	.project-card {
-	}
-}
-
-@media screen and (min-width: 992px) {
-	.project-card {
-	}
-}
-*/

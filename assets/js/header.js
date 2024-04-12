@@ -36,21 +36,18 @@ header.innerHTML = `
                             <!--li><a class="submenu-item" href="./website-templates.html">Website Templates</a></li-->
                         </ul>
                     </li>
+					<li class="nav-item nl">
+                        <a class="nav-link" href="./visuals.html">Visuals</a>
+                    </li>
                     <li class="nav-item submenu">
                         <span class="nav-link dropdown-btn">
                             <span class="txt">More</span>
                             <span class="material-icons mi-24 drop-icon">expand_more</span>
                         </span>
                         <ul class="dropdown-content m-auto">
-                            <li>
-                                <a class="submenu-item" href="./visuals.html">Visuals</a>
-                            </li>
                             <li><a class="submenu-item" href="./python.html">Python Basic Projects</a></li>
-							<li><a class="submenu-item" href="./index.html#contact">Contact Me</a></li>
+							<li><a class="submenu-item" href="./index.html#connect">Connect</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item nl">
-                        <a class="nav-link" href="./about-me.html">About Me</a>
                     </li>
                 </ul>
             </div>
@@ -68,13 +65,20 @@ header.innerHTML = `
             <p class="text-center">A Frontend Developer and A Graphics Designer</p>
         </div>
         <div class="row">
-            <span
-                ><a href="https://github.com/aydavid-thetechguy">
-                    <i class="bi bi-github fs-3 text-dark"></i> </a
-                >&nbsp;
+            <span>
+				<a href="https://github.com/aydavid-thetechguy">
+                    <i class="bi bi-github fs-3 text-dark"></i> 
+				</a>&nbsp;
                 <a href="https://wa.me/2348084634310">
-                    <i class="bi bi-whatsapp fs-3 text-success"></i> </a
-            ></span>
+                    <i class="bi bi-whatsapp fs-3 text-success"></i> 
+				</a>&nbsp;
+				<a href="https://facebook.com/ayoola.sowunmi.39">
+                    <i class="bi bi-facebook fs-3 text-primary"></i> 
+				</a>&nbsp;
+				<a href="https://x.com/@aydavid01">
+                    <i class="bi bi-twitter-x fs-3 text-dark"></i> 
+				</a>
+			</span>
         </div>
     </div>
     <div class="overlay hidden"></div>

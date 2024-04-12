@@ -3,9 +3,9 @@ const footer = document.querySelector(".footer");
 footer.innerHTML = `
     <!-- Grid container -->
     <div class="container">
-        <section id="contact" class="pt-5 def-col-font contact">
+        <section id="connect" class="pt-5 def-col-font connect">
             <div class="row d-flex text-center">
-                <h3>Contact</h3>
+                <h3>Connect</h3>
             </div>
         </section>
         <section class="social-icons">
@@ -32,6 +32,14 @@ footer.innerHTML = `
                         <i class="bi bi-whatsapp fs-3 def-col"></i>
                     </a>
                 </div>
+				
+				<!-- Grid column -->
+                <div class="col-md-3">
+                    <a href="https://x.com/@aydavid01">
+                        <i class="bi bi-twitter-x fs-3 def-col"></i>
+                    </a>
+                </div>
+				
             </div>
         </section>
 
@@ -40,12 +48,12 @@ footer.innerHTML = `
         <section class="mb-5">
             <div class="row d-flex text-center">
                 <div class="col-lg-2"></div>
-                <div class="col-lg-8 devay">
+                <div class="col-lg-8 ayd">
                     <h3 class="def-col-font">
                         AyDavid
                     </h3>
                     <p class="def-col-font">
-                        Hello! By name, am Ayoola David Sowunmi. Am a God-passionate person, a web developer, a graphics designer and an aspiring software engineer passionate about designing and developing to make the world a better place.
+                        Hello! Am a God-passionate person, a web developer and graphics designer ardent about designing and developing to make the world a better place.
                     </p>
                 </div>
                 <div class="col-lg-2"></div>

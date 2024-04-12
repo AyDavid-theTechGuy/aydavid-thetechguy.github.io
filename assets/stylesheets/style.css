@@ -65,24 +65,13 @@ a {
 	align-items: center;
 }
 
-.web-temp,
-.services,
-.frontend-projects,
-.visual-works,
-.ui-components,
-.pyb-projects, 
-.fppg-banner {
-	background-color: #eeeef5;
-	padding: 70px 0 10px 0;
-}
-
 /*Navbar Style*/
 
 .navbar {
 	margin: 0 auto;
 	background-color: #3e3e43;
 	box-shadow: 0 0 15px #d1d1d1;
-	z-index: 99;
+	z-index: 9;
 }
 
 .nav-link,
@@ -164,80 +153,65 @@ a {
 	background-color: transparent;
 }
 
-/* Banner */
+/* Ayd */
 
-.banner, .banner-ot {
-	margin: 50px 0 0 0;
-}
-
-.banner, .banner-ot {
-	background-image: linear-gradient(to top left, #aaa8ba 0%, #c0ded6 100%);
+.ayd {
 	font-family: "Work Sans", sans-serif;
 }
 
-.banner-img img {
-	height: auto;
-	width: 100%;
-}
-
-.banner-txt h1, .banner-txt p {
+.ayd-txt h1 {
 	font-weight: 500;
 }
 
-.banner-txt .one {
-	font-size: 16px;
-	margin-top: -5px;
+.ayd-txt h5 {
+	margin-top: -7px;
 }
 
-.banner-txt .two {
-	font-size: 17px;
-	margin-top: -3px;
-}
-
-.banner-txt h5 {
-	font-weight: 500;
-}
-
-.banner-txt hr {
-	border: solid 1px #5a5aff;
+.ayd-txt hr {
+	border: solid 1px #aaa8ba;
 	border-radius: 2px;
-	color:  #5a5aff;
-	width: 20%;
-	opacity: 80;
+	color: #aaa8ba;
+	width: 72px;
+	opacity: 1;
+}
+
+.ayd-img img {
+	height: 320px;
+	width: auto;
 }
 
 /* Buttons Style */
 
-.banner-btn, .see-more, .web-temp-btn, .pj-btn {
+.ayd-btn, .see-more, .web-temp-btn, .pj-btn {
 	border-radius: 25px;
 	font-family: "Mulish", sans-serif;
 	font-weight: 500;
 	letter-spacing: 1px;
 }
 
-.banner-btn, .see-more, .web-temp-btn {
-	background-color: #5a5aff;
-	color: #fafafa;
-	border: solid 2px #5a5aff;
+.ayd-btn, .see-more, .web-temp-btn {
+	background: linear-gradient(to top left, #aaa8ba 0%, #c0ded6 100%);
+	color: 3e3e43;
+	border: solid 2px #ccdfdc;
 	font-size: 16px;
 }
 
-.banner-btn:hover, .see-more:hover, .web-temp-btn:hover {
-	background-color: transparent;
-	color: #5a5aff;
-	border: solid 2px #5a5aff;
+.ayd-btn:hover, .see-more:hover, .web-temp-btn:hover {
+	background: transparent;
+	color: gray;
+	border: solid 2px gray;
 }
 
-/* Banner Buttons */
+/* Ayd Button */
 
-.banner-btn {
-	padding: 10px 28px;
+.ayd-btn {
+	padding: 12px 28px;
 }
 
 /* See More Buttons, webTemp View Button */
 
 .see-more, .web-temp-btn {
-	padding: 10px 42px;
+	padding: 12px 37px;
 }
 
 /* Projects Nav Buttons */
@@ -255,6 +229,8 @@ a {
 	color: #eeeef5;
 	border: solid 2px #3e3e43;
 }
+
+/* Services ... */
 
 /* Website Template Section */
 
@@ -291,7 +267,7 @@ a {
 
 /* Contact Style */
 
-.contact h3, .devay h3 {
+.connect h3, .ayd h3 {
 	font-weight: 600;
 }
 
@@ -308,6 +284,15 @@ footer {
 
 .hidden {
 	display: none;
+}
+
+
+/* Other Pages */
+
+.pg-heading {
+	background: linear-gradient(to top left, #aaa8ba 0%, #c0ded6 100%);
+	font-family: "Work Sans", sans-serif;
+	margin: 50px 0 0 0;
 }
 
 /* Python Basic Projects Pg */
@@ -349,25 +334,6 @@ footer {
 	margin: -54px 0 0 0;
 }
 
-/* About Me Page */
-
-.about .lhs img {
-	max-height: 370px;
-	width: auto;
-}
-
-.about h4 {
-	font-family: "Work Sans", sans-serif;
-	font-weight: 500;
-}
-
-.about h5 {
-	color: #606576;
-}
-
-.about p {
-	font-family: "Mulish", sans-serif;
-}
 
 /* Style - navbarToggler Appearance */
 
@@ -382,10 +348,6 @@ footer {
 
 	.nav-link {
 		padding-left: 10px;
-	}
-
-	.banner-img, .banner-txt h1, .banner-txt h2 {
-		text-align: center;
 	}
 }
 
@@ -409,28 +371,6 @@ footer {
 
 /* Mobile Phones */
 @media screen and (max-width: 576px) {
-	.banner {
-		height: 50vh;
-		padding-top: 16px;
-	}
-
-	.banner-img {
-		padding: 12px;
-	}
-
-	.banner-img img {
-		max-width: 208px;
-		opacity: 0.3;
-	}
-
-	.banner-txt h1, .contact h3, .devay h3 {
-		font-size: 20px;
-	}
-
-	.banner-txt p, .devay p {
-		font-size: 14px;
-	}
-
 	.fppg-banner img {
 		width: 400px;
 		height: auto;
@@ -443,19 +383,6 @@ footer {
 
 /* Tablets */
 @media screen and (min-width: 577px) and (max-width: 767px) {
-	.banner {
-		height: 62vh;
-		padding-top: 30px;
-	}
-
-	.banner-img {
-		padding: 19px;
-	}
-
-	.banner-img img {
-		max-width: 300px;
-	}
-
 	.fppg-banner img {
 		width: 400px;
 		height: auto;
@@ -463,19 +390,6 @@ footer {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-	.banner {
-		height: 68vh;
-		padding-top: 35px;
-	}
-
-	.banner-img {
-		padding: 16px;
-	}
-
-	.banner-img img {
-		max-width: 380px;
-	}
-
 	.fppg-banner img {
 		width: 400px;
 		height: auto;
@@ -484,17 +398,45 @@ footer {
 
 /* Laptops, Desktops */
 @media screen and (min-width: 992px) {
-	.banner {
-		height: 60vh;
-		padding-top: 72px;
-	}
-
-	.banner-img img {
-		max-width: 450px;
-	}
-
 	.fppg-banner img {
 		max-width: 480px;
 		height: auto;
+	}
+}
+
+/* Media Query for Ayd */
+
+@media screen and (min-width: 975px) {
+	.ayd-txt h1, 
+	.ayd-txt h5, 
+	.ayd-txt p, 
+	.ayd-txt > div {
+		text-align: right;
+	}
+	
+	.ayd-txt > hr {
+		margin-left: auto;
+	}
+	
+	.ayd-img img {
+		margin-left: -37px;
+	}
+}
+
+@media screen and (max-width: 974px) {
+	.ayd-txt {
+		padding: 0 24px;
+	}
+	
+	.ayd-img {
+		padding-top: 16px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 474px) {
+	.ayd-img img {
+		height: 240px;
+		width: auto;
 	}
 }

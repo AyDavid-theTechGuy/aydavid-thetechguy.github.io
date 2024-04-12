@@ -7,10 +7,10 @@
 			content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1"
 		/>
 		<title>Ay David, the Tech Guy</title>
-		<link
-			rel="stylesheet"
-			href="./assets/bootstrap-icons/bootstrap-icons.css"
-		/>
+		<link 
+			rel="stylesheet" 
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		>
 		<link
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -50,30 +50,56 @@
 		<!-- Header -->
 		<header class="header"></header>
 
-		<section class="banner pb-4" id="home">
+		<!-- AYD -->
+		<section class="ayd mt-5 pt-5 def-bg" id="home">
 			<div class="container">
-				<div class="row m-auto">
-					<div class="col-lg-6 banner-img">
-						<img src="./assets/img/developer.png"/>
-					</div>
-					<div class="col-lg-6 banner-txt">
-						<h1>Ay David</h1>
-						<p class="one">the Tech Guy</p>
-						<p class="two">Hello! Am a God-passionate person, a web developer, a graphics designer and an aspiring software engineer passionate about designing and developing to make the world a better place. </p>
+				<div class="row">
+					<div class="col-lg-6 ayd-txt">
+						<h1>I'm Ay David</h1>
+						<h5>the Tech Guy</h5>
+						<hr>
+						<p>Hello! Am a God-passionate person, a web developer and graphics designer ardent about designing and developing to make the world a better place. </p>
 						<div class="pt-2">
 							<a
 								role="button"
-								href="https://aydavid-thetechguy.github.io/about-me.html"
-								class="btn banner-btn"
-								>About Me</a
+								href="./index.html#connect"
+								class="btn ayd-btn"
+								>Connect</a
 							>&nbsp;&nbsp;
+						</div>
+					</div>
+					<div class="col-lg-6 ayd-img">
+						<img src="./assets/img/aydavid.png"/>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- SERVICES -->
+		<section id="services" class="services def-bg pt-5">
+			<div class="container">
+				<div class="row mb-4 text-center">
+					<h2>
+						<b>What I Do</b>
+					</h2>
+				</div>
+				<div class="row gx-5">
+					<div class="col-lg-6">
+						<div class="service-card mx-auto">
+							<span class="material-icons mi-178">brush</span>
+							<h5 class="pb-2">iCreate Amazing Visuals</h5>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="service-card mx-auto">
+							<span class="material-icons mi-178">laptop</span>
+							<h5 class="pb-2">iBuild Awesome Sites</h5>
 						</div>
 					</div>
 				</div>
 			</div>
-			<br />
 		</section>
-
+		
 		<!--WEBSITE TEMPLATES-->
 		<!--section id="webTemp" class="web-temp">
 			<div class="container">
@@ -99,15 +125,15 @@
 		</section-->
 		
 		<!--LATEST FRONTEND PROJECTS SECTION-->
-		<section id="frontendProjects" class="frontend-projects">
-			<div class="container">
+		<section id="frontendProjects" class="frontend-projects def-bg pt-5">
+			<div class="container pt-4">
 				<div class="row mb-4 text-center top">
 					<p>Latest</p>
 					<h2>
 						<b>Frontend Projects</b>
 					</h2>
 				</div>
-				<div class="row gx-5 row-main">
+				<div class="row row-main gx-5">
 					<div class="col-lg-4">
 						<div class="project-card">
 							<span class="material-icons mi-178">code</span>
@@ -144,8 +170,8 @@
 		</section>
 
 		<!--VISUAL WORKS-->
-		<section id="visualWorks" class="visual-works pt-5">
-			<div class="container pb-5">
+		<section id="visualWorks" class="visual-works def-bg pt-5">
+			<div class="container pt-5 pb-5">
 				<div class="row mb-4 text-center top">
 					<p>Cool</p>
 					<h2>
