@@ -98,3 +98,13 @@ for (let i = 0; i < litCard.length; i++) {
 		litCard[i].style.color = "#3e3e43";
 	});
 }
+
+/* Web Temp Btn */
+
+const webTempBtn = document.querySelectorAll(".web-temp-btn");
+
+for (let i = 0; i < webTempBtn.length; i++) {
+	webTempBtn[i].addEventListener("click", () => {
+		window.location.href = webTempBtn[i].getAttribute('link');
+	});
+}
