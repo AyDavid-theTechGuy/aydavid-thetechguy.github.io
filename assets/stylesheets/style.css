@@ -228,6 +228,7 @@ a {
 	padding: 7px 24px;
 }
 
+
 .pj-btn:hover {
 	background-color: #3e3e43;
 	color: #eeeef5;
@@ -443,5 +444,13 @@ footer {
 	.ayd-img img {
 		height: 240px;
 		width: auto;
+	}
+}
+
+/* Media Query for pj-btn */
+
+@media screen and (max-width: 750px) {
+	.pj-nav a {
+		margin: 10px 0;
 	}
 }
