@@ -167,6 +167,10 @@ a {
 	margin-top: -7px;
 }
 
+.ayd-txt h6 {
+	margin-bottom: 0px;
+}
+
 .ayd-txt hr {
 	border: solid 1px #aaa8ba;
 	border-radius: 2px;
@@ -408,7 +412,8 @@ footer {
 
 @media screen and (min-width: 975px) {
 	.ayd-txt h1, 
-	.ayd-txt h5, 
+	.ayd-txt h5,
+	.ayd-txt h6,
 	.ayd-txt p, 
 	.ayd-txt > div {
 		text-align: right;
