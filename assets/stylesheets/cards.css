@@ -153,12 +153,9 @@
 .web-temp-card {
 	background-color: white;
 	color: #3e3e43;
-	display: flex;
-	flex-direction: row;
 	border-radius: 12px;
 	box-shadow: 0 0 15px #3e3e43;
 	padding: 15px 28px;
-	width: max-content;	
 }
 
 .web-temp-card img {
@@ -172,4 +169,33 @@
 
 .web-temp-card p {
 	font-family: "Mulish", sans-serif;
+}
+
+@media screen and (min-width: 751px) {
+	.web-temp-card {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.web-temp-card .rhs {
+		padding-left: 16px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.web-temp-card .lhs {
+		padding-bottom: 16px;
+	}
+}
+
+@media screen and (max-width: 558px) {
+	.web-temp .row-main {
+		margin: 0 24px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.web-temp .row-main {
+		margin: 0 10px;
+	}
 }

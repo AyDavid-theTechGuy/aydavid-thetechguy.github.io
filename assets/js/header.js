@@ -33,7 +33,7 @@ header.innerHTML = `
                             <li>
                                 <a class="submenu-item" href="./frontend-projects.html">Frontend Projects</a>
                             </li>
-                            <!--li><a class="submenu-item" href="./website-templates.html">Website Templates</a></li-->
+                            <li><a class="submenu-item" href="./website-templates.html">Website Templates</a></li>
                         </ul>
                     </li>
 					<li class="nav-item nl">
