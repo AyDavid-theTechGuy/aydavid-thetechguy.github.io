@@ -58,11 +58,11 @@ header.innerHTML = `
     <div class="profile-card hidden">
         <button class="close-profile">&times;</button>
         <div class="profile-image">
-            <img src="./assets/img/profile.jpg" alt="" class="pic" />
+            <img src="./assets/img/aydavid.png" alt="" class="pic" />
         </div>
         <div class="data">
             <h4>Sowunmi Ayoola</h4>
-            <p class="text-center">A Frontend Developer and A Graphics Designer</p>
+            <p class="text-center">Web Developer and Graphics Designer</p>
         </div>
         <div class="row">
             <span>
