@@ -7,6 +7,7 @@
 			content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1"
 		/>
 		<title>Ay David, the Tech Guy</title>
+		<link rel="icon" type="image/x-icon" href="./assets/img/code.svg">
 		<link 
 			rel="stylesheet" 
 			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
@@ -44,6 +45,7 @@
 		<script defer src="./assets/js/header.js"></script>
 		<script defer src="./assets/js/footer.js"></script>
 		<script defer src="./assets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
+		<script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		<script defer src="./assets/js/script.js"></script>
 	</head>
 	<body>
@@ -111,15 +113,25 @@
 					</h2>
 				</div>
 				<div class="row row-main">
-					<div class="web-temp-card">
+					<div class="web-temp-card mb-5">
 						<div class="my-auto lhs">
-							<img src="./assets/img/eis-web-temp.png" class="img-fluid"/>
+							<img src="./assets/img/lsh.png" class="img-fluid"/>
 						</div>
 						<div class="my-auto rhs">
-							<h3>EIS School Website Template</h3>
-							<p>This is a website template built for a fictional school called Excel International Schools. It was built with HTML, CSS, JavaScript, Google fonts and Bootstrap CSS framework.</p>
-							<button class="web-temp-btn" link="./eis-school-website-template">View</button>
+							<h3>Living Springs Hospital Website Template</h3>
+							<p>This is a website template built for a fictional hospital named Living Springs Hospital. Web technologies used include HTML, CSS, JavaScript, Bootstrap CSS framework, Bootstrap Icons and Jquery.</p>
+							<button class="web-temp-btn" link="./lsh-website-template">View</button>
 						</div>
+					</div>
+				</div>
+				<div class="row mt-4">
+					<div class="d-flex justify-content-center">
+						<a
+							role="button"
+							href="./website-templates.html"
+							class="btn see-more"
+							>See More</a
+						>
 					</div>
 				</div>
 			</div>
@@ -181,14 +193,25 @@
 				</div>
 				<div class="row row-main gx-5">
 					<div class="visual-card">
-						<img src="./assets/img/visuals/flyers/amazinggrace_egg.png" />
+						<a href="./assets/img/visuals/flyers/amazinggrace_egg.png" class="lightbox-trigger">
+							<img src="./assets/img/visuals/flyers/amazinggrace_egg.png" />
+						</a>
 					</div>
 					<div class="visual-card">
-						<img src="./assets/img/visuals/flyers/flyer_smilo.jpg" />
+						<a href="./assets/img/visuals/flyers/flyer_smilo.jpg" class="lightbox-trigger">
+							<img src="./assets/img/visuals/flyers/flyer_smilo.jpg" />
+						</a>
 					</div>
 					<div class="visual-card">
-						<img src="./assets/img/visuals/flyers/gg_praise_worship.jpg" />
+						<a href="./assets/img/visuals/flyers/gg_praise_worship.jpg" class="lightbox-trigger">
+							<img src="./assets/img/visuals/flyers/gg_praise_worship.jpg" />
+						</a>
 					</div>
+				</div>
+				<!-- LIGHTBOX -->
+				<div id="lightbox">
+					<span class="close">&times;</span>
+					<img class="lightbox-content" id="lightbox-img">
 				</div>
 				<div class="row mt-5 pb-4">
 					<div class="d-flex justify-content-center">
@@ -202,6 +225,9 @@
 				</div>
 			</div>
 		</section>
+
+		<!-- WHATSAPP QUICK CONTACT -->
+		<div class="wa-qc fixed-bottom ms-auto"></div>
 
 		<!-- Footer -->
 		<footer class="footer pt-4"></footer>

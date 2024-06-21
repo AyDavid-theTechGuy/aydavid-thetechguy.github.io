@@ -45,8 +45,9 @@ header.innerHTML = `
                             <span class="material-icons mi-24 drop-icon">expand_more</span>
                         </span>
                         <ul class="dropdown-content m-auto">
-                            <li><a class="submenu-item" href="./python.html">Python Basic Projects</a></li>
-							<li><a class="submenu-item" href="./index.html#connect">Connect</a></li>
+                            <li>
+                                <a class="submenu-item" href="./python.html">Python Projects</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -57,12 +58,12 @@ header.innerHTML = `
     <!--PROFILE-->
     <div class="profile-card hidden">
         <button class="close-profile">&times;</button>
-        <div class="profile-image">
-            <img src="./assets/img/aydavid.png" alt="" class="pic" />
+        <div class="profile-image pb-2">
+            <img src="./assets/img/profile.jpg" alt="" class="pic" />
         </div>
         <div class="data">
-            <h4>Sowunmi Ayoola</h4>
-            <p class="text-center">Web Developer and Graphics Designer</p>
+            <h4>Ayoola David Sowunmi</h4>
+            <p class="text-center pb-0">Web Developer, Graphics Designer</p>
         </div>
         <div class="row">
             <span>
@@ -80,6 +81,7 @@ header.innerHTML = `
 				</a>
 			</span>
         </div>
+        <p class="text-center fst-italic my-1 pt-2 fw-semibold" style="font-size: 14px;">JioSprings Solutions</p>
     </div>
     <div class="overlay hidden"></div>
     `;

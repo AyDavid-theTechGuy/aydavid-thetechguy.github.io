@@ -108,3 +108,57 @@ for (let i = 0; i < webTempBtn.length; i++) {
 		window.location.href = webTempBtn[i].getAttribute('link');
 	});
 }
+
+/* Lightbox */
+
+$(document).ready(function(){
+    // When an image is clicked
+    $('.lightbox-trigger').click(function(event){
+        event.preventDefault();
+        var imgSrc = $(this).attr('href');
+        
+        // Set the lightbox image to the clicked image
+        $('#lightbox-img').attr('src', imgSrc);
+        
+        // Show the lightbox
+        $('#lightbox').fadeIn();
+    });
+
+    // When the close button is clicked
+    $('#lightbox .close').click(function(){
+        $('#lightbox').fadeOut();
+    });
+
+    // Close lightbox when clicking outside the image
+    $('#lightbox').click(function(event){
+        if(event.target.id == 'lightbox'){
+            $(this).fadeOut();
+        }
+    });
+});
+
+/* WhatsApp Quick Contact Hover */
+
+const waQc = document.querySelector(".wa-qc");
+
+waQc.innerHTML = `
+	<div class="wrapper">
+		<a href="https://wa.me/2348084634310"><i class="bi bi-whatsapp"></i></a>
+	</div>`;
+
+const waBg = document.querySelector(".wa-qc .wrapper");
+const waIcon = document.querySelector(".wa-qc .wrapper i");
+
+waBg.addEventListener("mouseover", () => {
+	waBg.style.backgroundColor = "#f1f1f1";
+	waBg.style.transition = "0.75s";
+	waIcon.style.color = "#1a8754";
+	waIcon.style.transition = "0.75s";
+});
+
+waBg.addEventListener("mouseleave", () => {
+	waBg.style.backgroundColor = "#20a869";
+	waBg.style.transition = "0.75s";
+	waIcon.style.color = "#f1f1f1";
+	waIcon.style.transition = "0.75s";
+});
