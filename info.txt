@@ -1,0 +1,5 @@
+Github Repository
+- aydavid-thetechguy.github.io
+
+Deployed to Vercel
+- aydavidttg.vercel.app
