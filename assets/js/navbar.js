@@ -15,7 +15,7 @@ nav.innerHTML = `
 			aria-expanded="false"
 			aria-label="Toggle navigation"
 		>
-			<span class="material-icons mi-24 def-col">menu</span>
+			<span class="material-icons mi-24">menu</span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav">

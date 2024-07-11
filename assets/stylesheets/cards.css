@@ -40,6 +40,18 @@
 	height: auto;
 }
 
+@media screen and (min-width: 330px) and (max-width: 450px) {
+	.web-card img {
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 329px) {
+	.web-card img {
+		width: 285px;
+	}
+}
+
 .web-card h4 {
 	padding-top: 10px;
 }

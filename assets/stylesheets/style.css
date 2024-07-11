@@ -31,6 +31,7 @@ a {
 	--col1: #eeeef5;
 	--col2: #303042;
 	--col3: #3e3e43;
+	--font1: "Mulish", sans-serif;
 }
 
 /* Material Icons Style */
@@ -70,7 +71,7 @@ a {
 
 .nav-link,
 .navbar-brand {
-	color: #eeeef5 !important;
+	color: var(--col1) !important;
 	cursor: pointer;
 }
 
@@ -85,6 +86,10 @@ a {
 
 .navbar-brand .brand-name {
 	margin-top: 2px;
+}
+
+.navbar-toggler {
+	color: var(--col1);
 }
 
 .navbar-nav {
@@ -102,11 +107,11 @@ a {
 }
 
 .nav-link.ct {
-	border: solid 2px #eeeef5;
+	border: solid 2px var(--col1);
 }
 
 .nav-link:hover {
-	border: solid 2px #eeeef5;
+	border: solid 2px var(--col1);
 	border-radius: 5px;
 }
 
@@ -156,7 +161,7 @@ a {
 
 .hero {
 	background-color: var(--col2);
-	color: #eeeef5;
+	color: var(--col1);
 	font-family: "Work Sans", sans-serif;
 	padding-top: 16px;
 	padding-bottom: 0;
@@ -189,7 +194,7 @@ a {
 }
 
 .hero-bg-part {
-	background-color: #eeeef5;
+	background-color: var(--col1);
 }
 
 .hero-bg-part img {
@@ -200,7 +205,7 @@ a {
 /* Services Section */
 
 .services {
-	background-color: #eeeef5;
+	background-color: var(--col1);
 	padding: 54px 0 54px 0;
 }
 
@@ -299,6 +304,14 @@ footer {
 
 .social-icons i:hover {
 	color: lightgreen;
+}
+
+.copyright {
+	font-family: var(--font1);
+}
+
+.copyright span {
+	color: var(--col1);
 }
 
 .hidden {

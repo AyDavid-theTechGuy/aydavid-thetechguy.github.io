@@ -53,8 +53,9 @@ footer.innerHTML = `
                         AyDavid
                     </h3>
                     <p class="def-col-font">
-                        Hello! Am a God-passionate person, a web developer and graphics designer ardent about designing and developing to make the world a better place.
+                        Hello! Am a God-passionate person, a web developer and graphics designer ardent about designing and developing to make the world a better place. 
                     </p>
+					<h6><i>JioSprings Solutions (Brand)</i></h6>
                 </div>
                 <div class="col-lg-2"></div>
             </div>
@@ -62,8 +63,8 @@ footer.innerHTML = `
     </div>
 
     <!-- Copyright -->
-    <div class="text-center def-font p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        <span class="def-col">© 2024 Copyright,</span>
+    <div class="copyright text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        <span>© 2024 Copyright,</span>
         <a href="https://aydavidttg.vercel.app/">AyDavid</a>
     </div>
     `;
