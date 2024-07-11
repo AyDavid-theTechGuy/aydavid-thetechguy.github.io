@@ -108,6 +108,8 @@ a {
 
 .nav-link.ct {
 	border: solid 2px var(--col1);
+	background-color: var(--col1);
+	color: var(--col2) !important;
 }
 
 .nav-link:hover {
@@ -116,8 +118,8 @@ a {
 }
 
 .nav-link.ct:hover {
-	background-color: var(--col1);
-	color: var(--col2) !important;
+	background-color: transparent;
+	color: var(--col1) !important;
 }
 
 /* Submenu Style */
